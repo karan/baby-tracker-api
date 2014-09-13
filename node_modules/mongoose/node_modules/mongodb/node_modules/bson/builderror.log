@@ -1,0 +1,13 @@
+../ext/bson.cc:657:18: warning: 'NanSymbol' is deprecated [-Wdeprecated-declarations]
+        t->SetClassName(NanSymbol("BSON"));
+                        ^
+../node_modules/nan/nan.h:1026:51: note: 'NanSymbol' declared here
+  NAN_DEPRECATED NAN_INLINE v8::Local<v8::String> NanSymbol(
+                                                  ^
+../ext/bson.cc:668:19: warning: 'NanSymbol' is deprecated [-Wdeprecated-declarations]
+        target->ForceSet(NanSymbol("BSON"), t->GetFunction());
+                         ^
+../node_modules/nan/nan.h:1026:51: note: 'NanSymbol' declared here
+  NAN_DEPRECATED NAN_INLINE v8::Local<v8::String> NanSymbol(
+                                                  ^
+2 warnings generated.
